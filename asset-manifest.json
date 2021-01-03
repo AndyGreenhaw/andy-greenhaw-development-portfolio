@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/andy-greenhaw-development-portfolio/static/css/main.ab7136cd.chunk.css",
+    "main.js": "/andy-greenhaw-development-portfolio/static/js/main.2bc49e8a.chunk.js",
+    "main.js.map": "/andy-greenhaw-development-portfolio/static/js/main.2bc49e8a.chunk.js.map",
+    "runtime-main.js": "/andy-greenhaw-development-portfolio/static/js/runtime-main.23dda5fb.js",
+    "runtime-main.js.map": "/andy-greenhaw-development-portfolio/static/js/runtime-main.23dda5fb.js.map",
+    "static/js/2.2040e382.chunk.js": "/andy-greenhaw-development-portfolio/static/js/2.2040e382.chunk.js",
+    "static/js/2.2040e382.chunk.js.map": "/andy-greenhaw-development-portfolio/static/js/2.2040e382.chunk.js.map",
+    "static/js/3.c71298a8.chunk.js": "/andy-greenhaw-development-portfolio/static/js/3.c71298a8.chunk.js",
+    "static/js/3.c71298a8.chunk.js.map": "/andy-greenhaw-development-portfolio/static/js/3.c71298a8.chunk.js.map",
+    "index.html": "/andy-greenhaw-development-portfolio/index.html",
+    "static/css/main.ab7136cd.chunk.css.map": "/andy-greenhaw-development-portfolio/static/css/main.ab7136cd.chunk.css.map",
+    "static/js/2.2040e382.chunk.js.LICENSE.txt": "/andy-greenhaw-development-portfolio/static/js/2.2040e382.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/andy-greenhaw-development-portfolio/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.23dda5fb.js",
+    "static/js/2.2040e382.chunk.js",
+    "static/css/main.ab7136cd.chunk.css",
+    "static/js/main.2bc49e8a.chunk.js"
+  ]
+}
