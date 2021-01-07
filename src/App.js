@@ -8,7 +8,7 @@ function App() {
       <div className="bg">
         <div className="container-fluid">
           <Route exact path="/" component={Homepage} />
-          <Route exact path="/andy-greenhaw-react-portfolio" component={Homepage} />
+          <Route exact path="/andy-greenhaw-development-portfolio" component={Homepage} />
         </div>
       </div>
     </Router>

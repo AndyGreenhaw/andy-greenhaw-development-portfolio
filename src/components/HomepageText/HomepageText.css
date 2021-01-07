@@ -1,0 +1,34 @@
+
+a {
+  color: lightgreen;
+}
+
+.splash-container{
+  position: absolute;
+  font-size: 60px;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  }
+
+.homeHead {
+  
+  font-family: 'Bungee Inline'; 
+  color: white;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -20px;
+
+  text-align: left;
+}
+
+.homeSubhead {
+  font-size: 24px;
+  color: white;
+}
+
+.homeButton {
+  font-size: 24px;
+  color: white;
+}
