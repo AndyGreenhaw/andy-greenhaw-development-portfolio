@@ -11,7 +11,8 @@ class Homepage extends Component {
             options={{
                 background: {
                     color: "rgb(0,0,0,0.5)",
-                    opacity: 1
+                    opacity: 0.5,
+                    enable: false
                 },
                 detectRetina: false,
                 fpsLimit: 60,

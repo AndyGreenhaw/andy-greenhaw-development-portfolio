@@ -1,24 +1,35 @@
 import React from "react";
 import "./HomepageText.css";
 import { Button } from "react-bootstrap";
+import { Link, useLocation } from "react-router-dom";
+import Navbar from "../Navbar/Navbar"
 
 function HomepageText() {
   return (
-    <div className="splash-container">
+   
+    <div className="center">
       <div className="row">
-        <div className="homeHead col-12">Hi, I'm Andy.</div>
+        <div className="homeHead col-12">Andy Greenhaw</div>
       </div>
       <div className="row">
-        <div className="homeSubhead col-12">I'm a full-stack developer with an extensive background in data visualization and strategic communication.</div>
+        <div className="homeSubhead col-12">Full-Stack Developer with Extensive Background in Data Visualization and Strategic Communication.</div>
       </div>
       <div className="row">
-        <div className="homeButton">
-          <Button variant="secondary" className="textEdit4 col-2" href="/">
-            View My Portfolio
+        <div className="homeButtonDisplay">
+          <Button variant="secondary" className="homeButton" href="/">
+            About
           </Button>
+          <Button variant="secondary" className="homeButton" href={"/portfolio"}>
+            Portfolio
+          </Button>
+          <Button variant="secondary" className="homeButton" href="/">
+            Contact
+          </Button>
+          
         </div>
       </div>
     </div>
+    
   );
 }
 

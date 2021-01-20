@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "BookShelf",
+        "thumb": "andy-greenhaw-development-portfolio/assets/thumbnails/bookshelf.png",
+        "link": "https://intense-earth-81966.herokuapp.com/",
+        "description": "Social Networking App that Enables Users to Scan, Lend, and Borrow Books from One Another.",
+        "alt": "Andy's BookSelf App"
+    },
+    {
+        "id": 2,
+        "name": "Weather Forecaster",
+        "thumb": "andy-greenhaw-development-portfolio/assets/thumbnails/weatherdashboard.png",
+        "link": "https://andygreenhaw.github.io/06-Server-Side-APIs-Weather-Dashboard/",
+        "description": "Weather App that Uses Open Weather's API to Pull Forecasts for Any City or Zip Code Search.",
+        "alt": "Andy's Weather App"
+    },
+    {
+        "id": 3,
+        "name": "Work Day Planner",
+        "thumb": "andy-greenhaw-development-portfolio/assets/thumbnails/dayplanner.png",
+        "link": "https://andygreenhaw.github.io/05-Third-Party-APIs-Work-Day-Scheduler/",
+        "description": "Simple Day Planner that Enables Users to Log and Save Notes While Tracking the Hourly Time.",
+        "alt": "Andy's Day Planner"
+    }, 
+    {
+        "id": 4,
+        "name": "'The Office' Directory",
+        "thumb": "andy-greenhaw-development-portfolio/assets/thumbnails/theoffice.png",
+        "link": "https://andygreenhaw.github.io/19-react-employee-directory/",
+        "description": "Employee Directory App that Utilizes React to Sort and Catagorize Characters of the Office.",
+        "alt": "Andy's Employee Directory"
+    },
+    {
+        "id": 5,
+        "name": "Budget Tracker",
+        "thumb": "andy-greenhaw-development-portfolio/assets/thumbnails/budget.png",
+        "link": "https://hidden-refuge-28358.herokuapp.com/",
+        "description": "Financial Budgeting App that Enables Users to Track Expenses and Deposits Over Time.",
+        "alt": "Andy's Budget App"
+    },
+    {
+        "id": 6,
+        "name": "Note Taker",
+        "thumb": "andy-greenhaw-development-portfolio/assets/thumbnails/notetaker.png",
+        "link": "https://shielded-savannah-98558.herokuapp.com/notes",
+        "description": "The Skeleton Framework for a Blog App that Enables Users to Create, Update, and Delete Posts.",
+        "alt": "Andy's Note Taker"
+    },
+    {
+        "id": 7,
+        "name": "Burger Eater",
+        "thumb": "andy-greenhaw-development-portfolio/assets/thumbnails/burger.png",
+        "link": "https://sleepy-caverns-80492.herokuapp.com/",
+        "description": "Basic CRUD App I Built While Learning and Practicing the How Interactive Functions with React",
+        "alt": "Andy's Burger App"
+    },
+    {
+        "id": 8,
+        "name": "Password Generator",
+        "thumb": "andy-greenhaw-development-portfolio/assets/thumbnails/password.png",
+        "link": "https://andygreenhaw.github.io/03-JavaScript-Password-Generator/",
+        "description": "Javascript App that Enables Users to Generate Random Passwords Based on User Input Parameters.",
+        "alt": "Andy's Burger App"
+    },
+    {
+        "id": 9,
+        "name": "Taco Party",
+        "thumb": "andy-greenhaw-development-portfolio/assets/thumbnails/tacoparty.png",
+        "link": "https://lauracole1900.github.io/tacoParty/",
+        "description": "Prototype Recipe Website Created Using an API to Generate Taco, Salsa, and Drink Recipes.",
+        "alt": "Taco Party"
+    }
+]

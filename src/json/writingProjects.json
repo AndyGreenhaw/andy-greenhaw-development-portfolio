@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Brain Physiology",
+        "thumb": "andy-greenhaw-development-portfolio/assets/thumbnails/lead-poisoning.jpg",
+        "link": "https://highimpact.com/blog/the-physiological-impact-of-lead-poisoning-on-the-central-nervous-system",
+        "description": "I wrote this article explaining how lead poisoning affects the central nervous system, using our animations to demonstrate.",
+        "alt": "Andy's Writing 1"
+    },
+    {
+        "id": 2,
+        "name": "Birth Injury",
+        "thumb": "andy-greenhaw-development-portfolio/assets/thumbnails/birth-injury.jpg",
+        "link": "https://highimpact.com/blog/How-to-Expose-Red-Flags-of-Fetal-Distress-After-Birth-Injury",
+        "description": "I wrote this article explaining how attorneys should strategically use visuals to expose points of negligence after a birth injury.",
+        "alt": "Andy's Writing 2"
+    },
+    {
+        "id": 3,
+        "name": "Medical Malpractice",
+        "thumb": "andy-greenhaw-development-portfolio/assets/thumbnails/eye-case.jpg",
+        "link": "https://highimpact.com/case-studies/confidential-settlement-botched-eye-surgery-irreparably-damages-cornea-nerves",
+        "description": "I wrote this article explaining how a botched surgical preparation destroyed a patient's corneal nerves.",
+        "alt": "Andy's Writing  3"
+    }
+]

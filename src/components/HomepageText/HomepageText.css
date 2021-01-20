@@ -3,32 +3,61 @@ a {
   color: lightgreen;
 }
 
-.splash-container{
+.center {
+  margin: 0;
   position: absolute;
-  font-size: 60px;
   top: 50%;
-  left: 30%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  }
+}
 
 .homeHead {
-  
-  font-family: 'Bungee Inline'; 
+  font-size: 80px;
+  font-family: 'Monoton';
   color: white;
 
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: -20px;
+  margin-top: 100px;
+  margin-bottom: 10px;
 
-  text-align: left;
+  text-align: center;
 }
 
 .homeSubhead {
-  font-size: 24px;
+  font-size: 40px;
   color: white;
+  text-align: center;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.homeButtonDisplay {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .homeButton {
   font-size: 24px;
   color: white;
+
+  margin-right:  30px;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
+
+.particleBackground {
+  overflow: hidden;
+}
+
+
+

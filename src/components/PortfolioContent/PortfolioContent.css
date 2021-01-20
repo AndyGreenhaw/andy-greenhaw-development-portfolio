@@ -1,0 +1,13 @@
+.categoryHeadline {
+    color:white;
+    text-align: center;
+    font-size: 40px;
+  
+    padding: 50px;
+  }
+  
+.projectContainter {
+    padding-left:30px;
+    padding-right:30px;
+    margin-bottom:30px; 
+  }

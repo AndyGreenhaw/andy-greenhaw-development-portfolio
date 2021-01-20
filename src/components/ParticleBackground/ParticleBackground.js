@@ -1,7 +1,10 @@
 import Particles from "react-tsparticles";
 import React, { Component }  from 'react';
-import polygonImage from "./images/smalldeer.svg"
+import polygonImage from "./images/mountain-wireframe-tiny222.svg"
 import pathseg from "pathseg"
+// import mountainImg from "./images/mountain_PNG18"
+
+import "./ParticleBackground.css"
 
 // if (process.browser) {
 //     require("pathseg");
@@ -11,37 +14,36 @@ class Homepage extends Component {
     render() {
         return (
         <>
-        {/* <HomepageText /> */}
         <Particles
-            className="semiTransparent"
             id="tsparticles"
             options={{
             autoplay: true,
+            
             ////////////////
             // BACKGROUND //
             ////////////////
 
             background: {
-                color: "rgb(0,0,0,0.5)",
-                opacity: 1
+                color: "rgb(17,36,53)",
+                opacity: 0
             },
 
             backgroundMask: {
-                composite: "destination-out",
-                cover: {
-                    color: "#fff",
-                    opacity: 1,       
-                },
+                // composite: "destination-out",
+                // cover: {
+                //     color: "rgb(17,36,53)",
+                //     opacity: 1,       
+                // },
                 enable: false
             },
 
             backgroundMode: {
-                enable: false,
-                zIndex: -1,
+                enable: true,
+                zIndex: 0,
                 
             },
 
-            detectRetina: false,
+            detectRetina: true,
             fpsLimit: 30,
 
             ///////////////
@@ -102,7 +104,7 @@ class Homepage extends Component {
                         size: 6,
                     },
                     connect: {
-                        distance: 80,
+                        distance: 220,
                         links: {opacity:0.5},
                         radius: 60
                     },
@@ -118,12 +120,12 @@ class Homepage extends Component {
                         area: {
                             gradient: {
                                 start: {value: "#ffffff"},
-                                stop: {value: "#000000"},
+                                stop: {value: "rgb(17,36,53)"},
                             },
                             radius: 1000,
                         },
                         shadow: {
-                            color: {value: "#000000"},
+                            color: {value: "rgb(17,36,53)"},
                             length: 2000
                         },                            
                     },
@@ -252,8 +254,8 @@ class Homepage extends Component {
                     consent: false,
                     distance: 30,
                     enable: true,
-                    frequency: 1,
-                    opacity: 0.4,
+                    frequency: 50,
+                    opacity: 1,
                     shadow: {
                         blur: 5,
                         color: "#00ff00",
@@ -312,7 +314,7 @@ class Homepage extends Component {
                     trail: {
                         enable: false,
                         length: 10,
-                        fillColor: "#000000"
+                        fillColor: "rgb(17,36,53)"
                     },
                     vibrate: false,
                     warp: false
@@ -322,11 +324,11 @@ class Homepage extends Component {
                 number: {
                     density: {
                         enable: false,
-                        value_area: 2000,
-                        factor: 1000
+                        value_area: 1000,
+                        factor: 10
                     },
                     limit: 0,
-                    value: 200
+                    value: 500
                 },
 
                 // PARTICLE OPACITY
@@ -337,7 +339,7 @@ class Homepage extends Component {
                     },
                     value: 0.4,
                     animation: {
-                        enable: true,
+                        enable: false,
                         minimumValue: 0.05,
                         speed: 2,
                         sync: false
@@ -346,26 +348,26 @@ class Homepage extends Component {
 
                 reduceDuplicates: false,
 
-                // PARTICLE RORATE
-                rotate: {               
-                    random: {
-                        enable: false,
-                        minimumValue: 0,
-                    },
-                    value: 0,
-                    direction: "clockwise",
-                    animation: {
-                        enable: false,
-                        speed: 0,
-                        sync: false
-                    },
-                    path: false
-                },
+                // PARTICLE ROTATE
+                // rotate: {               
+                //     random: {
+                //         enable: false,
+                //         minimumValue: 0,
+                //     },
+                //     value: 0,
+                //     direction: "clockwise",
+                //     animation: {
+                //         enable: false,
+                //         speed: 0,
+                //         sync: false
+                //     },
+                //     path: false
+                // },
 
                 // PARTICLE SHADOW
                 shadow: {
                     blur: 0,
-                    color: "#000000",
+                    color: "rgb(17,36,53)",
                     enable: false,
                     offset: {
                         x: 0,
@@ -375,30 +377,24 @@ class Homepage extends Component {
 
                 // PARTICLE SHAPE
                 shape: {
-                    options: {
-                        character: {
-                            fill: false,
-                            font: "Verdana",
-                            weight: "400"
-                        },
-                        char: {
-                            fill: false,
-                            font: "Verdana",
-                            weight: "400"
-                        },
-                        polygon: {
-                            sides: 5,
-                        },
-                        star: {
-                            sides:5
-                        },
-                        // image: {
-                        //     height: 100,
-                        //     replaceColor: true,
-                        //     src: "https://cdn.matteobruni.it/images/particles/github.svg",
-                        //     width: 100
-                        // },
-                    },
+                    // options: {
+                    //     character: {
+                    //         fill: false,
+                    //         font: "Verdana",
+                    //         weight: "400"
+                    //     },
+                    //     char: {
+                    //         fill: false,
+                    //         font: "Verdana",
+                    //         weight: "400"
+                    //     },
+                    //     polygon: {
+                    //         sides: 4,
+                    //     },
+                    //     star: {
+                    //         sides:5
+                    //     },
+                    // },
                     type: "circle"
                 },
 
@@ -423,7 +419,7 @@ class Homepage extends Component {
                 stroke: {
                     width: 0,
                     color: {
-                        value: "#000000",
+                        value: "rgb(17,36,53)",
                         animation: {
                             enable: false,
                             speed: 1,
@@ -456,21 +452,23 @@ class Homepage extends Component {
 
             polygon: {
                 enable: true,
-                draw: {
-                    enable: true,
-                    lineColor: "rgba(255,255,255,0.2)",
-                    lineWidth: 0.5,
-                    // stroke: {
-                    //     color: "rgba(255,255,255,0.2)",
-                    //     width: 0.5,
-                    //     opacity: 0.2
-                    // }
+                // draw: {
+                //     enable: true,
+                //     lineColor: "rgba(255,255,255,0.2)",
+                //     lineWidth: 0.5,
+                //     stroke: {
+                //         color: "rgba(255,255,255,0.2)",
+                //         width: 0.5,
+                //         opacity: 0.2
+                //     }
+                // },
+                inline: {
+                    arrangement: "equidistant",
                 },
-                inlineArrangement: "equidistant",
-                move: {
-                    radius: 10,
-                },
-                scale: 0.5,
+                // move: {
+                //     radius: 100,
+                // },
+                scale: 1,
                 type: "inline",
                 // url: require("./images/sphereWireframe.svg")
                 url: polygonImage
