@@ -14,11 +14,11 @@ function App() {
         <Navbar />
       </div>
       <div className="mainSection">
-          <Route exact path="/" component={Homepage} />
-          <Route exact path="/andy-greenhaw-development-portfolio" component={Homepage} />
+          <Route path="/" component={Homepage} />
+          <Route path="/andy-greenhaw-development-portfolio" component={Homepage} />
 
           {/* NON NAV PAGES */}
-          <Route exact path="/portfolio" component={MyPortfolio} />
+          <Route path="/portfolio" component={MyPortfolio} />
       </div>
       </div>
     </Router>
