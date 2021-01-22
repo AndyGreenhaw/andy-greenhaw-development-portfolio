@@ -1,22 +1,30 @@
 [
     {
         "id": 1,
-        "name": "BookShelf",
-        "thumb": "andy-greenhaw-development-portfolio/assets/thumbnails/bookshelf.png",
-        "link": "https://intense-earth-81966.herokuapp.com/",
-        "description": "Social Networking App that Enables Users to Scan, Lend, and Borrow Books from One Another.",
+        "name": "Pandemic Tracker",
+        "thumb": "andy-greenhaw-development-portfolio/assets/thumbnails/pandemicTracker.png",
+        "link": "https://vast-eyrie-87899.herokuapp.com/globe",
+        "description": "Global Covid-19 Pandemic Tracker that Displays Cases, Deaths, and Recoveries Across the Globe.",
         "alt": "Andy's BookSelf App"
     },
     {
         "id": 2,
+        "name": "BookShelf",
+        "thumb": "andy-greenhaw-development-portfolio/assets/thumbnails/bookshelf.png",
+        "link": "https://bookshelf-borrow-books.herokuapp.com/",
+        "description": "Social Networking App that Enables Users to Scan, Lend, and Borrow Books from One Another.",
+        "alt": "Andy's BookSelf App"
+    },
+    {
+        "id": 3,
         "name": "Weather Forecaster",
         "thumb": "andy-greenhaw-development-portfolio/assets/thumbnails/weatherdashboard.png",
-        "link": "https://andygreenhaw.github.io/06-Server-Side-APIs-Weather-Dashboard/",
+        "link": "https://andygreenhaw.github.io/react-weather-app/",
         "description": "Weather App that Uses Open Weather's API to Pull Forecasts for Any City or Zip Code Search.",
         "alt": "Andy's Weather App"
     },
     {
-        "id": 3,
+        "id": 4,
         "name": "Work Day Planner",
         "thumb": "andy-greenhaw-development-portfolio/assets/thumbnails/dayplanner.png",
         "link": "https://andygreenhaw.github.io/05-Third-Party-APIs-Work-Day-Scheduler/",
@@ -24,7 +32,7 @@
         "alt": "Andy's Day Planner"
     }, 
     {
-        "id": 4,
+        "id": 5,
         "name": "'The Office' Directory",
         "thumb": "andy-greenhaw-development-portfolio/assets/thumbnails/theoffice.png",
         "link": "https://andygreenhaw.github.io/19-react-employee-directory/",
@@ -32,7 +40,7 @@
         "alt": "Andy's Employee Directory"
     },
     {
-        "id": 5,
+        "id": 6,
         "name": "Budget Tracker",
         "thumb": "andy-greenhaw-development-portfolio/assets/thumbnails/budget.png",
         "link": "https://hidden-refuge-28358.herokuapp.com/",
@@ -40,7 +48,7 @@
         "alt": "Andy's Budget App"
     },
     {
-        "id": 6,
+        "id": 7,
         "name": "Note Taker",
         "thumb": "andy-greenhaw-development-portfolio/assets/thumbnails/notetaker.png",
         "link": "https://shielded-savannah-98558.herokuapp.com/notes",
@@ -48,7 +56,7 @@
         "alt": "Andy's Note Taker"
     },
     {
-        "id": 7,
+        "id": 8,
         "name": "Burger Eater",
         "thumb": "andy-greenhaw-development-portfolio/assets/thumbnails/burger.png",
         "link": "https://sleepy-caverns-80492.herokuapp.com/",
@@ -56,19 +64,11 @@
         "alt": "Andy's Burger App"
     },
     {
-        "id": 8,
+        "id": 9,
         "name": "Password Generator",
         "thumb": "andy-greenhaw-development-portfolio/assets/thumbnails/password.png",
         "link": "https://andygreenhaw.github.io/03-JavaScript-Password-Generator/",
         "description": "Javascript App that Enables Users to Generate Random Passwords Based on User Input Parameters.",
         "alt": "Andy's Burger App"
-    },
-    {
-        "id": 9,
-        "name": "Taco Party",
-        "thumb": "andy-greenhaw-development-portfolio/assets/thumbnails/tacoparty.png",
-        "link": "https://lauracole1900.github.io/tacoParty/",
-        "description": "Prototype Recipe Website Created Using an API to Generate Taco, Salsa, and Drink Recipes.",
-        "alt": "Taco Party"
     }
 ]

@@ -15,7 +15,7 @@ function App() {
       </div>
       <div className="mainSection">
           <Route exact path="/" component={Homepage} />
-          <Route exact path="/andy-greenhaw-development" component={Homepage} />
+          <Route exact path="/andy-greenhaw-development-portfolio" component={Homepage} />
 
           {/* NON NAV PAGES */}
           <Route exact path="/portfolio" component={MyPortfolio} />
