@@ -5,6 +5,9 @@ import { Link, useLocation } from "react-router-dom";
 import Navbar from "../Navbar/Navbar"
 
 function HomepageText() {
+
+  const location = useLocation();
+
   return (
    
     <div className="center">
@@ -16,15 +19,15 @@ function HomepageText() {
       </div>
       <div className="row">
         <div className="homeButtonDisplay">
-          <Button variant="secondary" className="homeButton" href="/">
+          <Link to="/" variant="secondary" id="homeButton" href="/">
             About
-          </Button>
-          <Button variant="secondary" className="homeButton" href={"/portfolio"}>
+          </Link>
+          <Link to="/portfolio" variant="secondary" className={location.pathname === "/portfolio"} id="homeButton" href={"/portfolio"}>
             Portfolio
-          </Button>
-          <Button variant="secondary" className="homeButton" href="/">
+          </Link>
+          <Link to="/" variant="secondary" id="homeButton" href="/">
             Contact
-          </Button>
+          </Link>
           
         </div>
       </div>
